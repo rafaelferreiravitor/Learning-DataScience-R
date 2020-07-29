@@ -1,5 +1,5 @@
 # Leitura da base de dados
-base = read.csv('credit_data.csv')
+base = read.csv('../Bases/credit_data.csv')
 
 # Apaga a coluna clientid
 base$clientid = NULL
