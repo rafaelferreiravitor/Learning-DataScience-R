@@ -1,4 +1,4 @@
-base = read.csv('plano_saude2.csv')
+base = read.csv('../Bases/plano_saude2.csv')
 
 #install.packages('rpart')
 library(rpart)

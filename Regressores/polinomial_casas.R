@@ -1,4 +1,4 @@
-base = read.csv('house_prices.csv')
+base = read.csv('../Bases/house_prices.csv')
 base$id = NULL
 base$date = NULL
 base$sqft_living15 = NULL

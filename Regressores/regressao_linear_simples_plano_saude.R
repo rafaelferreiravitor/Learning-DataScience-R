@@ -1,4 +1,4 @@
-base = read.csv('plano_saude.csv')
+base = read.csv('../Bases/plano_saude.csv')
 
 cor(base$idade, base$custo)
 

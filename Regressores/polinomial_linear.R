@@ -1,4 +1,4 @@
-base = read.csv('plano_saude2.csv')
+base = read.csv('../Bases/plano_saude2.csv')
 
 # regressão linear simples
 regressor1 = lm(formula = custo ~ idade, data = base)

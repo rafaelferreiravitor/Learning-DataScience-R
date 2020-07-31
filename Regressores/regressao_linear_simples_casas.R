@@ -1,4 +1,4 @@
-base = read.csv('house_prices.csv')
+base = read.csv('../Bases/house_prices.csv')
 
 library(caTools)
 set.seed(1)
